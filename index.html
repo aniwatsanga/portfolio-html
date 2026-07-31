@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aniwat — Portfolio</title>
+  <meta
+    name="description"
+    content="A Fullstack Web Developer based in Indonesia. I craft accessible, pixel-perfect, and performant web experiences using modern technologies."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="topbar" class="topbar"></header>
+
+    <main class="main">
+      <section id="info-panel" class="info-panel"></section>
+
+      <section id="diagram-panel" class="diagram-panel">
+        <svg id="edges-svg" class="edges-svg"></svg>
+        <div id="nodes-container" class="nodes-container"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <button id="lightbox-close" class="lightbox-close" aria-label="ปิด">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </span>
+    </button>
+    <button id="lightbox-prev" class="lightbox-nav prev" aria-label="รูปก่อนหน้า">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5 8 12l7 7"/></svg>
+      </span>
+    </button>
+    <div id="lightbox-img-wrap" class="lightbox-img-wrap"></div>
+    <button id="lightbox-next" class="lightbox-nav next" aria-label="รูปถัดไป">
+      <span class="icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5l7 7-7 7"/></svg>
+      </span>
+    </button>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
