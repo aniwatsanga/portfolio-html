@@ -107,7 +107,7 @@ export const nodesContent = [
           "6.ทดสอบการใช้งานและนำเสนอความคืบหน้าเพื่อมาปรับปรุงแก้ไข",
           "สิ่งที่ได้รับ: ได้ฝึกออกแบบ UI/UX ผ่าน Figma ก่อนนำมาพัฒนาเป็นเว็บจริง ได้เรียนรู้เกี่ยวกับ Network ต่างๆ กระบวนการทำงาน การสแกนเครือข่าย การสแกนความเสี่ยง การแสดงผลว่าจะแสดงผลยังไงให้มีประสิทธิภาพให้ผู้ใช้เข้าใจ รวมถึงได้ฝึกทักษะการทำงานร่วมกันเป็นทีม แบ่งงาน และประสานงานกับเพื่อนร่วมทีม",
         ],
-        tags: ["HTML", "CSS", "JavaScript", "Python", "Flask", "MySQL", "Network"],
+        tags: ["HTML", "CSS", "JavaScript", "Python", "Flask", "MySQL", "Network", "Figma"],
       },
       {
         id: "project-2",
@@ -130,7 +130,7 @@ export const nodesContent = [
           "4.สรุปผลและจัดทำข้อเสนอแนะแนวทางแก้ไข สำหรับแต่ละช่องโหว่",
           "สิ่งที่ได้รับ: ได้ลงมือใช้โปรแกรมด้าน Security เช่น Nessus, Nmap, Metasploit ทำให้เข้าใจว่าแต่ละเครื่องมือใช้ทำอะไร ได้ฝึกคิดแบบผู้โจมตี ลองจนกว่าจะหาทางเข้าระบบได้ และได้เรียนรู้วิธีเขียนรายงานสรุปผล",
         ],
-        tags: ["Penetration Testing", "Nessus", "Metasploit"],
+        tags: ["Penetration Testing", "Nessus", "Metasploit", "Document"],
         pdf: { label: "เปิดไฟล์ PDF", url: "/files/Pentest_Report.pdf" },
       },
       {
