@@ -224,7 +224,7 @@ img {
   inset: 0;                        /* กลับมาเต็มกล่องเหมือนเดิม -> img คำนวณ cover เท่าเดิม ไม่ขยับ */
   overflow: hidden;
   z-index: 0;
-  clip-path: inset(0 344px 0 234px)
+  clip-path: inset(0 344px 0 204px)
 }
 
 .hero-photo-bg img {
@@ -304,7 +304,7 @@ img {
 
 @media (min-width: 768px) {
   .hero-title {
-    font-size: 56px;
+    font-size: 48px;
   }
 }
 
